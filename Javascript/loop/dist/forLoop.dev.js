@@ -20,8 +20,16 @@ for (var index = 0; index < array.length; index++) {
 
 for (i = 0; i <= 10; i++) {
   if (i == 5) {
-    console.log("5 is detected");
+    // console.log(`5 is detected`);
     break;
+  } //   console.log(`value of i is ${i}`);
+
+}
+
+for (i = 0; i <= 10; i++) {
+  if (i == 5) {
+    // console.log(`5 is detected`);
+    continue; // skips the current iteration loop (skips 5 in for loop in this condition)
   }
 
   console.log("value of i is ".concat(i));
